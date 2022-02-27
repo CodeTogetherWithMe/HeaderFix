@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+section{
+    min-height: 900px;
+    background-color: rgb(255, 174, 0);
+    box-sizing: border-box;
+    background-image: url(./im.jpg);
+    
+}
+
+footer{
+    min-height: 500px;
+    background-color: black;
+}
+
+a{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+
+.alter{
+    background-color: black;
+    color: white;
+}
+
+
+.alter>a{
+    color: white;
+}
